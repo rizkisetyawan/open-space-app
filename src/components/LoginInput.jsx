@@ -4,7 +4,6 @@ import useInput from '../hooks/useInput';
 
 function LoginInput({ login }) {
   const [id, onIdChange] = useInput('');
-  const [password, onPasswordChange] = useInput('');
 
   return (
     <form className="login-input">
